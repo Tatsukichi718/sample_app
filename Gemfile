@@ -40,5 +40,11 @@ group :production do
   gem 'pg', '0.20.0'
 end
 
+source 'https://rubygems.org'
+
+gem 'rails',          '~> 6.0.2', '>= 6.0.2.2'
+gem 'bootstrap-sass', '3.3.7'
+
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 #gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
+
