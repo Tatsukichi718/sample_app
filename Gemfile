@@ -5,6 +5,7 @@ ruby '2.6.5'
 
 
 gem 'rails', '~> 6.0.2', '>= 6.0.2.2'
+gem 'jquery-rails', '4.3.1'
 gem 'bcrypt', '3.1.12'
 gem 'sqlite3', '~> 1.4'
 gem 'puma', '~> 4.1'
