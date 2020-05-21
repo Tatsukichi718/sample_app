@@ -8,6 +8,8 @@ gem 'rails', '~> 6.0.2', '>= 6.0.2.2'
 gem 'jquery-rails', '4.3.1'
 gem 'bcrypt', '3.1.12'
 gem 'faker',      '1.7.3'
+gem 'carrierwave',             '1.0.0'
+gem 'mini_magick',             '4.9.5'
 gem 'will_paginate',           '3.1.7'
 gem 'bootstrap-will_paginate', '1.0.0'
 gem 'sqlite3', '~> 1.4'
@@ -19,7 +21,7 @@ gem 'jbuilder', '~> 2.7'
 gem 'bootsnap', '>= 1.4.2', require: false
 
 group :development, :test do
-  #gem 'sqlite3', '1.3.13'
+  gem 'sqlite3', '~>1.4'
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
 end
 
@@ -43,6 +45,7 @@ end
 
 group :production do
   gem 'pg', '0.20.0'
+  gem 'fog', '1.42'
 end
 
 source 'https://rubygems.org'
